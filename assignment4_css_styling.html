@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Assignment 4 - CSS Styling</title>
+
+    <!-- External CSS -->
+    <link rel="stylesheet" href="styles.css">
+
+    <!-- Internal CSS -->
+    <style>
+        body {
+            background-color: #fcefe3; /* Light peach background */
+            font-family: 'Arial', sans-serif;
+        }
+
+        h1 {
+            color: darkblue;
+            text-align: center;
+            text-transform: uppercase;
+        }
+
+        p {
+            color: #2f2f2f;
+            font-size: 18px;
+            line-height: 1.6;
+        }
+
+        .highlight {
+            border: 2px dashed green;
+            padding: 12px;
+            margin: 20px 0;
+            background-color: #eaffea;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>CSS Styling Assignment</h1>
+
+    <!-- Inline CSS applied here -->
+    <h2 style="color: darkred; font-style: italic; text-align: center;">
+        Subheading with Inline CSS
+    </h2>
+
+    <p>This is a normal paragraph using internal CSS. It demonstrates the use of color, font size, and line height.</p>
+
+    <p class="highlight">This paragraph is highlighted using a CSS class. It includes a dashed border, padding, margin, and a light green background.</p>
+
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR2IsyXwK360QotjCq-5jNaPYakrUG0bU8ViA&s" alt="Sample Image" style="border: 4px solid #000; margin-top: 10px;">
+
+</body>
+</html>
